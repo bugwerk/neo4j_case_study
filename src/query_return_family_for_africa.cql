@@ -1,0 +1,1 @@
+MATCH (a)-[r:PRESENT_IN]->(b {name: 'Africa'}) return r,a,b

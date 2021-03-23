@@ -1,0 +1,1 @@
+MATCH (a:Language {name:'Russian'})-[r *1..]->(b) return r,a,b
